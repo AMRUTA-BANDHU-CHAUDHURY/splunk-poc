@@ -1,10 +1,12 @@
-# Demonstration of using AWS inspector with the Command Line Interface
+# Splunk POC
+Demonstration of using AWS the Command Line Interface to provision a Splunk Indexer
+and a Linux Instance with the Splunk Forwarder.
 
 ## Instructions
 
 To use the demonstration environment in AWS, enter the following command:
 ```
-./setup.sh # Set up the environment and run a vuln scan
+./setup.sh # Set up the environment
 ```
 
 To use it you must [configure your AWS Profile Parameters](../master/docs/configuration.md)
@@ -13,7 +15,7 @@ in **setup.conf**.
 `./teardown.sh` will delete all EC2 instances, the VPC, and other objects created
 by the aws-setup script with the help of the .log files created during setup.
 
-## description
+## Description
 This proof-of-concept creates two EC2 instances in a dedicated VPC, complete
 with security groups, routing and everything necessary to deploy via script.
 
