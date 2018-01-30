@@ -9,7 +9,7 @@ To use the demonstration environment in AWS, enter the following command:
 ./setup.sh # Set up the environment
 ```
 
-To use it you must [configure your AWS Profile Parameters](../master/docs/configuration.md)
+To use it you must [configure your AWS Profile Parameters](../master/doc/configuration.md)
 in **setup.conf**.
 
 `./teardown.sh` will delete all EC2 instances, the VPC, and other objects created
